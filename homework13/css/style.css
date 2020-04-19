@@ -1,0 +1,234 @@
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.container {
+  font-family: Roboto;
+}
+
+.col-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.main {
+  margin: auto;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+}
+.main .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.last {
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+/***blocks-left **/
+.container {
+  width: 100%;
+  max-width: 255px;
+  padding-left: 19px;
+  padding-top: 17px;
+  margin-right: 15px;
+  background: #ffff;
+  padding-bottom: 10px;
+}
+
+.subTitle {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-right: 41px;
+  margin-top: 9px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.up {
+  margin-top: 17px;
+}
+
+.blocks-left {
+  height: 164px;
+  margin-right: 41px;
+  margin-top: 9px;
+  background: #0054FE;
+  mix-blend-mode: normal;
+  opacity: 0.04;
+  border-radius: 8px;
+}
+
+/***mainPart***/
+.upArea {
+  padding-top: 17px;
+}
+
+.testObj {
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.testBlocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.par-bl {
+  padding: 15px;
+}
+.par-bl .bl {
+  height: 185px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.12);
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  border-radius: 5px;
+}
+
+/***footer**/
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer .testObj {
+  margin: 0;
+}
+.footer .footer-intro {
+  margin-top: 13px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  border-radius: 5px;
+  padding: 26px 24px 16px 19px;
+  display: flex;
+}
+.footer .footer-intro > div {
+  margin-right: 15px;
+}
+
+.into-leftPar {
+  display: flex;
+}
+.into-leftPar .into-left {
+  width: 100%;
+  min-width: 195px;
+  padding: 8px;
+  background: #f5f8ff;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.into-leftPar .intro-middle {
+  margin-left: 16px;
+  padding: 14px 12px;
+  background-color: #f5f8ff;
+}
+.into-leftPar .intro-middle div {
+  font-size: 14px;
+  line-height: 16px;
+}
+.into-leftPar .blocks-intro {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.into-leftPar .blocks-intro:before {
+  content: "";
+  position: absolute;
+  bottom: -11px;
+  width: 100%;
+  opacity: 0.24;
+  border: 1px dashed #4A4A4A;
+}
+.into-leftPar .blocks-intro .b-1 {
+  width: 98px;
+  height: 158px;
+  margin-right: 9px;
+  background: #D7DDEA;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.into-leftPar .blocks-intro .b-1:last-child {
+  margin-right: 0;
+}
+
+.into-right {
+  width: 100%;
+  min-width: 119px;
+  padding: 8px;
+  background: #f5f8ff;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+}
+.into-right div {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.intro-down {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.cols {
+  margin-top: 16px;
+  display: flex;
+}
+.cols .col-4 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.cols .col-4 input {
+  margin: 0 5px 0 0;
+}
+.cols .col-4:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cols .col-4 > .inner {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+.cols .col-4 > .inner .d-flex {
+  margin-top: 5px;
+}
+.cols .col-4 > .inner input {
+  margin: 0 10px 0 0;
+}
+.cols .col-4 p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
