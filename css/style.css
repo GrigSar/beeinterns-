@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+}
+
+h1 {
+  max-width: 640px;
+  margin: 30px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > div > div {
+  margin: auto;
+  width: 100%;
+  max-width: 640px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+body > div > div > div {
+  position: relative;
+}
+body > div > div > div:after {
+  content: "";
+  left: -10px;
+  position: absolute;
+  height: 90%;
+  width: 2px;
+  transform: translate(0, -50%);
+  top: 50%;
+  background: #0179FF;
+}
+body > div > div > div label {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-align: left;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  cursor: pointer;
+}
+body > div > div > div label svg {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  fill: #333;
+}
+body > div > div > div input {
+  display: none;
+}
+body > div > div > div input:checked + label svg {
+  transform: rotate(-90deg);
+}
+body > div > div > div input:checked ~ div {
+  height: 100% !important;
+  overflow: visible !important;
+  display: block;
+}
+body > div > div > div > div {
+  transition: all 0.3s;
+  height: 0;
+  overflow: hidden;
+  padding: 20px;
+  display: none;
+}
+body > div > div > div > div > div {
+  text-align: center;
+}
+body > div > div > div > div > div img {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  img {
+    width: auto !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
