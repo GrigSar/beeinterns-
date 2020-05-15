@@ -184,7 +184,7 @@ p {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 30px
+    padding: 0.5rem 50px
 }
 
 .navbar div.collapse {
