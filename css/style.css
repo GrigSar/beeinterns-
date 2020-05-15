@@ -283,8 +283,7 @@ p {
 
 .banner .btn-block button {
     border: none;
-    width: 283px;
-    height: 60px
+    padding: 14px 71px;
 }
 
 .banner .btn-block .btn-white {
