@@ -64,9 +64,20 @@ body {
   background-image: url("../img/honda.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+.top:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .container {
+  position: relative;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -222,12 +233,13 @@ body {
   color: #F6F6F6;
 }
 
-.icons .play .icon-play {
+.icon-play {
   position: relative;
   background-color: #F92251;
   border: 2px solid transparent;
 }
-.icons .icon-play:before {
+
+.icon-play:before {
   content: "";
   display: block;
   position: absolute;
@@ -238,22 +250,24 @@ body {
   bottom: 35%;
   left: 45%;
 }
-.icons .button:hover {
+
+.button:hover {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  border: 2px solid #98e0ff !important;
+  border: 2px solid #98e0ff;
 }
-.icons .share {
-  margin-left: 51px;
-}
-.icons .share .icon-share {
+
+.icon-share {
   background-color: transparent;
   border: 1px solid #F92251;
+}
+
+.share {
+  margin-left: 51px;
 }
 
 .text {
   margin-top: 79px;
   display: flex;
-  justify-content: space-between;
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
@@ -262,7 +276,7 @@ body {
   display: flex;
 }
 .text .text-intro-left .text-left {
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .txt-dn {
@@ -295,12 +309,13 @@ section {
   margin-top: 40px;
 }
 
-.d-flex-in .input-block {
+.input-block {
   display: block;
 }
-.d-flex-in .form-into .formctn {
+
+.formctn {
   width: 100%;
-  padding: 15px;
+  padding: 15px 15px 15px 25px;
   height: 50px;
   background-color: #FFFFFF;
   border: 1px solid transparent;
@@ -308,7 +323,8 @@ section {
   font-size: 17px;
   line-height: 26px;
 }
-.d-flex-in .btn {
+
+.btn {
   width: 100%;
   white-space: nowrap;
   padding: 12px 45px;
@@ -324,26 +340,22 @@ section {
   transition: background-color 0.3s;
 }
 
-.btn-cl:hover {
-  background-color: transparent;
+.btn-sum:hover {
+  background-color: #b3183b;
 }
 
 .input-block label {
-  background-color: transparent;
   height: 50px;
   width: 15px;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
 }
-.input-block label input {
-  padding-left: 25px !important;
-}
 .input-block label img {
   position: absolute;
   left: 5px;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translateY(-50%);
 }
 
 /****footer***/
