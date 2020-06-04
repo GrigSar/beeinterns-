@@ -40,7 +40,7 @@
                            <div class="d-flex">
                                <div class="form-group d-md-flex search">
                                    <button type="submit"><img src="../img/shape.svg" alt=""></button>
-                                   <input type="search" id=inputSearch" name="search" class="form-control" placeholder="Search for details…"/>
+                                   <input type="search" id="inputSearch" name="search" class="form-control" placeholder="Search for details…"/>
                                </div>
                            </div>
                        </form>
@@ -104,20 +104,18 @@
                 Get free trial for 3 month.
             </div>
             <div class="form-down">
-                <form action="/posturl/newsletter/" method="post">
-                    <div class="d-flex-in">
+                <form action="/posturl/newsletter/" method="post" class="d-flex-in">
                         <div class="form-into input-block">
-                            <label><img src="../img/icon-name.svg" alt="name">
-                                <input type="text" name="name" class="formctn btn-cl" pattern="[A-Za-z]" placeholder="Name" minlength="2" maxlength="30" required/>
+                            <label><img src="../img/icon-name.svg" alt="person icon">
+                                <input type="text" name="name" class="formctn btn-cl" pattern="[A-Za-z]{2, 30}" minlength="2" maxlength="30" placeholder="Name" required/>
                             </label>
-                            <label><img src="../img/icon-mail.svg" alt="E-mail">
+                            <label><img src="../img/icon-mail.svg" alt="E-mail icon">
                                 <input type="email" name="Email" class="formctn btn-cl" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="E-Mail" required/>
                             </label>
                         </div>
-                        <button class="btn btn-cl" type="submit">
+                        <button class="btn btn-cl btn-sum" type="submit">
                             GET STARTED FOR FREE
                         </button>
-                    </div>
                 </form>
             </div>
         </div>
