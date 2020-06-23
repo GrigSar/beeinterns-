@@ -1,0 +1,328 @@
+@media (max-width: 767px) {
+  .container, .container-foot {
+    max-width: 100%;
+  }
+  .container-foot{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .top{
+    background-image: url("../img/honda-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo, .logo-min img {
+    width: 100%;
+    height: auto;
+  }
+  .nav-link:after {
+    top: 145%;
+  }
+  .sub-nav{
+    height: 60px;
+    .nav{
+      height: 60px;
+      .active{
+        font-size: 14px;
+        margin-right: 22px;
+      }
+    }
+    .form-group{
+      margin-left: 10px;
+      img{
+        width: 9px;
+        height: 9px;
+      }
+      .form-control{
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+    .logo{
+      display: none;
+    }
+    .logo-min{
+      height: 20px;
+      width: 20px;
+      position: unset;
+      margin-left: 20px;
+    }
+  }
+  .logo{
+    display: none;
+  }
+  .nav-link{
+    display: none;
+  }
+  .btn-cl{
+    margin-bottom: 20px;
+  }
+
+  .wrapper{
+    padding: 20px 0 36px;
+    .title{
+      max-width: 150px;
+      width: 100%;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    .icons{
+      margin-top: 15px;
+      .share{
+        margin-left: 0;
+        margin-top: 8px;
+      }
+      .button{
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        font-size: 15px;
+        img{
+          width: 3.5px;
+          height: 4.5px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      .icon-play:before {
+        border: 3px solid transparent;
+        border-left-color: #FFFFFF;
+        bottom: 30%;
+        left: 45%;
+      }
+
+    }
+    .text{
+      margin-top: 13px;
+      display: block;
+      font-size: 15px;
+      line-height: 23px;
+      .txt-dn {
+        font-size: 15px;
+        line-height: 23px;
+        img{
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .text-intro-left{
+        display: block;
+
+
+      }
+    }
+
+  }
+
+
+  .signUp{
+    padding: 30px 0 40px;
+    .into-text-sinUp{
+      font-size: 17px;
+      line-height: 26px;
+      text-align: left;
+    }
+    .btn{
+      font-size: 15px;
+    }
+  }
+
+  .footer{
+    .foot{
+      padding: 6px 0 15px;
+      height: 205px;
+      display: block;
+      .text-link{
+        a{
+          display: block;
+          font-size: 17px;
+          margin-top: 8px
+        }
+      }
+      .bee{
+        margin-top: 8px
+      }
+    }
+  }
+
+
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .container {
+    max-width: 615px;
+
+  }
+
+  .logo{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-link{
+    display: none;
+  }
+
+  .icons{
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .logo-min{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+  }
+
+  .wrapper{
+    padding: 53px 0 78px;
+    .text{
+      display: block;
+    }
+  }
+
+  .form{
+    .into-text-sinUp{
+      font-size: 25px;
+      line-height: 38px;
+    }
+    .d-flex-in{
+      max-width: 450px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+ .d-flex-in  {
+
+   .btn-cl{
+     width: 100%;
+   }
+   .input-block{
+     margin-bottom: 50px;
+     margin-right: 0;
+     display: flex;
+     align-items: center;
+     label{
+       margin-right: 30px;
+       width: 100%;
+       &:last-child{
+         margin-right: 0;
+       }
+     }
+   }
+
+  }
+
+  .footer{
+    .container-foot{
+      max-width: 100%;
+      padding: 0;
+      .foot{
+        padding: 30px 30px 23px;
+        height: 130px;
+
+        display: block;
+        .bee{
+          margin-top: 17px;
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 870px;
+  }
+}
+@media (min-width: 1200px) {
+  .form{
+
+    .container{
+      max-width: 100%;
+      .form-down{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .container{
+    max-width: 916px;
+  }
+  .logo{
+    display: block;
+  }
+  .logo-min{
+    display: none;
+  }
+  .nav-link{
+    display: block;
+  }
+  .nav-list{
+    display: flex;
+    align-items: center;
+  }
+  .icons{
+    display: flex;
+  }
+
+  .d-flex-in {
+    display: flex;
+    align-items: center;
+    .btn-cl{
+      min-width: 300px;
+      max-width: 300px;
+    }
+    .input-block{
+      margin-bottom: 0;
+      margin-right: 50px;
+      label{
+        margin-right: 50px;
+        min-width: 300px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .foot {
+      height: 70px;
+      padding: 20px 40px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .foot {
+    height: 70px;
+    padding: 20px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1008px;
+  }
+
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+  .nav-link{
+    margin-right: 100px;
+  }
+}
