@@ -21,7 +21,7 @@ function resolve1(inputObject) {
 function resolveTask1Example2(inputObject) {
     let obj = {};
     for (let i in inputObject) {
-        obj[inputObject[i]] = i
+        obj[inputObject[i]] = i;
     }
     return obj;
 }
